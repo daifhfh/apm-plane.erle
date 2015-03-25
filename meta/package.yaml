@@ -1,0 +1,8 @@
+name: apm-plane.erle
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.1
+architecture: armhf
+binaries:
+ - name: src/ArduPlane.elf
+maintainer: Víctor Mayoral <victor@erlerobot.com>

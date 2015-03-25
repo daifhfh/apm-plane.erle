@@ -1,0 +1,10 @@
+[Unit]
+Description=APM:Plane autopilot launch service
+After=capes.service
+
+[Service]
+#Type=oneshot
+ExecStart=/apps/apm-plane.erle/current/src/apm4-startup-plane.sh
+
+[Install]
+WantedBy=multi-user.target

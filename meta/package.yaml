@@ -5,4 +5,3 @@ version: 1.1
 architecture: armhf
 binaries:
  - name: src/ArduPlane.elf
-maintainer: Víctor Mayoral <victor@erlerobot.com>
